@@ -1,0 +1,10 @@
+.idea/
+.DS_Store
+.ipynb_checkpoints
+
+# Compiled Python bytecode
+*.py[cod]
+
+# vscode
+.vscode/
+venv/
