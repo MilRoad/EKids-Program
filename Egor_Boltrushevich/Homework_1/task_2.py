@@ -26,3 +26,8 @@
 9
 50
 """
+x = int(input())
+h = int(input())
+m = int(input())
+minutes = h * 60 + m + x
+print (int(minutes) // 60, "\n", minutes - (minutes // 60 * 60))
