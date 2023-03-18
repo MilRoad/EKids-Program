@@ -22,3 +22,7 @@
 8
 32
 """
+a = input()
+a = int(a)
+print(a // 60, "\n")
+print(a - (a // 60 * 60))
