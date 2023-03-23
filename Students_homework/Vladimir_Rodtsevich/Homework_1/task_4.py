@@ -35,15 +35,3 @@
 2
 Выход 3: 'Недосып'
 """
-print ("надо")
-a= int(input())
-print ("не надо")
-b = int(input())
-print ("поспал")
-c =int(input())
-if c>b:
-    print("пересып")
-elif c<a:
-    print("Недосып")
-else:
-    print ("нормально")
