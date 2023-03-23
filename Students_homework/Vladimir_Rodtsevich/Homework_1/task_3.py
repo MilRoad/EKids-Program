@@ -13,3 +13,16 @@
 Вход 3: 13
 Выход 3: 'Времени года с таким месяцем не существует'
 """
+a = int(input())
+if (a<1) or (a>12):
+    print("-")
+elif (a<=2) or a ==12 :
+    print("winter")
+elif a<=5:
+    print ("spring")
+elif a<=8:
+    print ("summer")
+elif a<=11:
+    print("autumn")
+
+
