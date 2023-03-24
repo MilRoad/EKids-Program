@@ -10,3 +10,9 @@
 Выход:
 16
 """
+string = input("Введите строку с целыми числами: ")
+sum = 0
+for i in string.split():
+    sum += int(i)
+
+print(f"Сумма чисел в строке: {sum}")
