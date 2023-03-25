@@ -19,3 +19,11 @@
 Выход 2:
 0
 """
+
+# Решение
+number = int(input("Введите число: "))
+summa = number
+while number != 0:
+    number = int(input("Введите число: "))
+    summa += number
+print(summa)

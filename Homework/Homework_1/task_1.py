@@ -22,3 +22,8 @@
 8
 32
 """
+
+# Решение
+all_minutes = int(input("Введите минуты: "))
+print(f"часы: {all_minutes // 60}")
+print(f"минуты: {all_minutes % 60}")

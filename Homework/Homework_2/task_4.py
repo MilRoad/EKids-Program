@@ -10,3 +10,10 @@
 Выход:
 16
 """
+
+# Решение
+list_of_numbers = input().split()
+summa = 0
+for item in list_of_numbers:
+    summa += int(item)
+print(summa)

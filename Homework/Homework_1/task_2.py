@@ -26,3 +26,11 @@
 9
 50
 """
+
+# Решение
+x = int(input("Введите X: "))
+h = int(input("Введите H: "))
+m = int(input("Введите M: "))
+minutes = h * 60 + m + x
+print(f"Часы: {minutes // 60}")
+print(f"Минуты: {minutes % 60}")
