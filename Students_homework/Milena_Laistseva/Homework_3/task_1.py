@@ -27,3 +27,5 @@ while number != 0:
     number = int(input("Введите число: "))
     summa += number
 print(summa)
+
+print(summa)
