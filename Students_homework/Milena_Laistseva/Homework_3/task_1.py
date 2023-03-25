@@ -9,7 +9,8 @@
 
 
 def sum_range(start, end):
-    print(start, end)
+    print(start)
+    print(end)
     pass
 
 
