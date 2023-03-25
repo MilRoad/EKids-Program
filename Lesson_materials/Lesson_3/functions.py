@@ -64,7 +64,7 @@ summa(34, 67)
 
 def summa_2(a, b):
     c = a + b  # Создаем переменную 'c'
-    return a + b
+    return c
 
 
 summa_2(1, 2)
