@@ -13,3 +13,42 @@
 Вход 3: 13
 Выход 3: 'Времени года с таким месяцем не существует'
 """
+print ("Введите месяц года")
+M = int(input())
+if M == 1:
+ print ("Это январь")
+else:
+    if M == 2:
+     print ("Это февраль")
+    else:
+        if M == 3:
+         print ("Это март")
+        else:
+            if M == 4:
+             print ("Это апрель")
+            else:
+                if M == 5:
+                 print ("Это май")
+                else:
+                    if M == 6:
+                     print ("Это июнь")
+                    else:
+                        if M == 7:
+                         print ("Это июль")
+                        else:
+                            if M == 8:
+                             print ("Это август")
+                            else:
+                                if M == 9:
+                                 print ("Это сентябрь")
+                                else:
+                                    if M == 10:
+                                     print ("Это октябрь")
+                                    else:
+                                        if M == 11:
+                                         print ("Это ноябрь")
+                                        else:
+                                            if M == 12:
+                                             print ("Это декабрь")
+                                            else:
+                                                 print ("Отсутствует месяц")
