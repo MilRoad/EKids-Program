@@ -9,7 +9,15 @@
 
 
 def modify_list(lst):
-    pass
+    new_lst = []
+    for item in lst:
+        if item % 2 == 0:
+            new_lst.append(item // 2)
+    return new_lst
+
+
+def modify_list_2(lst):
+    return [i // 2 for i in lst if i % 2 == 0]  # list comprehension
 
 
 assert modify_list([1, 2, 3, 4, 5, 6]) == [1, 2, 3]
