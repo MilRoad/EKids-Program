@@ -35,3 +35,12 @@
 2
 Выход 3: 'Недосып'
 """
+a=int(input())
+b=int(input())
+h=int(input())
+if h<a:
+    print('Недосып')
+elif a<=h<=b :
+    print('Это нормально')
+else:
+    print('Пересып')

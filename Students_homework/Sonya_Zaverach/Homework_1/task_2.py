@@ -26,3 +26,9 @@
 9
 50
 """
+x=int(input())
+n=int(input())
+m=int(input())
+y=n*60+m
+print((x+y)//60)
+print((x+y)%60)
