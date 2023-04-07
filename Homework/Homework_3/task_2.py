@@ -12,7 +12,26 @@
 
 
 def del_from_tuple(tpl, element):
-    pass
+    if element not in tpl:
+        return tpl
+    lst = list(tpl)
+    for i in range(len(tpl)):
+        if tpl[i] == element:
+            return tuple(lst[:i] + lst[i+1:])
+
+
+def del_from_tuple_2(tpl, elem):
+    if elem in tpl:
+        elem_index = tpl.index(elem)
+        return tpl[:elem_index] + tpl[elem_index + 1:]
+    return tpl
+
+
+def del_from_tuple_3(tpl, element):
+    arr = list(tpl)
+    if element in arr:
+        arr.remove(element)
+    return tuple(arr)
 
 
 assert del_from_tuple((1, 2, 3), 1) == (2, 3)
