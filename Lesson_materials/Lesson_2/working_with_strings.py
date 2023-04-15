@@ -42,7 +42,7 @@ print(len(s5))  # Функция len() вычисляет длину строк�
 user_name = "Tom"
 user_age = 37
 user = f"name: {user_name}  age: {user_age}"
-print(user)   # name: Tom  age: 37
+print(user)
 
 # Верхний регистр
 s = "hello"
