@@ -8,7 +8,7 @@
 
 
 def find_intersections(s1, s2):
-    pass
+    return set(s1).intersection(set(s2))
 
 
 assert find_intersections("aabbc", "1a2b3") == {"a", "b"}

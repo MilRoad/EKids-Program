@@ -9,7 +9,7 @@
 
 
 def count_different_symbols(string):
-    pass
+    return len(set(string))
 
 
 assert count_different_symbols("aB122AB") == 5

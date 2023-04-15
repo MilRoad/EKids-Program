@@ -9,7 +9,10 @@
 
 
 def to_dict(lst):
-    pass
+    dct = {}
+    for item in lst:
+        dct[item] = item
+    return dct
 
 
 assert to_dict([1, 2]) == {1: 1, 2: 2}

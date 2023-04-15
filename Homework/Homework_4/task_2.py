@@ -9,7 +9,7 @@
 
 
 def to_set(item):
-    pass
+    return set(item), len(set(item))
 
 
 assert to_set('я обычная строка') == ({'к', 'б', 'я', 'ы', 'н', 'р', 'т', 'о', 'ч', ' ', 'с', 'а'}, 12)
