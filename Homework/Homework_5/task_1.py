@@ -6,3 +6,7 @@
 3) Выведите переменную my_variable из другого модуля на экран.
 4) Вызовите функцию my_func() из другого модуля в этом файле.
 """
+import my_module
+
+print(my_module.my_variable)
+my_module.my_func()

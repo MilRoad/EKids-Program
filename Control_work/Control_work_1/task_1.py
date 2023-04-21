@@ -5,7 +5,11 @@
 
 
 def count_punctuation_symbols(string):
-    pass
+    punctuation_count = 0
+    for symbol in string:
+        if symbol in ".,;:!?":
+            punctuation_count += 1
+    return punctuation_count
 
 
 assert count_punctuation_symbols("Привет, ребята!") == 2

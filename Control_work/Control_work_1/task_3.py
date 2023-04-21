@@ -11,3 +11,9 @@
 Вход: 1 2 3 4 5
 Выход: 1 3 5
 """
+
+lst = input("Введите последовательность чисел: ").split()
+
+for index in range(len(lst)):
+    if index % 2 == 0:
+        print(lst[index])

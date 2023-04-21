@@ -6,4 +6,10 @@
 Возведите в рандомную степень рандомное число, полученные с помощью функции randint().
 Для возведения в степень воспользуйтесь функций pow() из встроенного модуля math.
 """
+import math
+from random import randint
 
+a = randint(1, 10)
+b = randint(2, 5)
+
+print(math.pow(a, b))
